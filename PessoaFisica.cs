@@ -2,6 +2,7 @@ namespace ClientLab
 {
     class PessoaFisica : Pessoa
     {
-        public String cpf {get; set;}
+        public string cpf {get; set;}
+        public string rg {get; set;}
     }
 }
