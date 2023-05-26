@@ -10,7 +10,10 @@ namespace ClientLab
 
           public void pagarImposto(float v)
           {
-            
+            this.valor = v;
+            this.valorImposto = this.valor * 10/100;
+            this.total = this.valor + this.valorImposto;
+
           }
 
     }
