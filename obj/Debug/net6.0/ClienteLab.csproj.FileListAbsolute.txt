@@ -1,0 +1,15 @@
+C:\Users\Jose Eustaquio\ClienteLab\bin\Debug\net6.0\ClienteLab.exe
+C:\Users\Jose Eustaquio\ClienteLab\bin\Debug\net6.0\ClienteLab.deps.json
+C:\Users\Jose Eustaquio\ClienteLab\bin\Debug\net6.0\ClienteLab.runtimeconfig.json
+C:\Users\Jose Eustaquio\ClienteLab\bin\Debug\net6.0\ClienteLab.dll
+C:\Users\Jose Eustaquio\ClienteLab\bin\Debug\net6.0\ClienteLab.pdb
+C:\Users\Jose Eustaquio\ClienteLab\obj\Debug\net6.0\ClienteLab.csproj.AssemblyReference.cache
+C:\Users\Jose Eustaquio\ClienteLab\obj\Debug\net6.0\ClienteLab.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Jose Eustaquio\ClienteLab\obj\Debug\net6.0\ClienteLab.AssemblyInfoInputs.cache
+C:\Users\Jose Eustaquio\ClienteLab\obj\Debug\net6.0\ClienteLab.AssemblyInfo.cs
+C:\Users\Jose Eustaquio\ClienteLab\obj\Debug\net6.0\ClienteLab.csproj.CoreCompileInputs.cache
+C:\Users\Jose Eustaquio\ClienteLab\obj\Debug\net6.0\ClienteLab.dll
+C:\Users\Jose Eustaquio\ClienteLab\obj\Debug\net6.0\refint\ClienteLab.dll
+C:\Users\Jose Eustaquio\ClienteLab\obj\Debug\net6.0\ClienteLab.pdb
+C:\Users\Jose Eustaquio\ClienteLab\obj\Debug\net6.0\ClienteLab.genruntimeconfig.cache
+C:\Users\Jose Eustaquio\ClienteLab\obj\Debug\net6.0\ref\ClienteLab.dll
