@@ -60,7 +60,7 @@ namespace ClientLab
                 Console.WriteLine("Informe o valor da compra:");
                 valorPago = float.Parse(Console.ReadLine());
                
-                pJuridica.pagarImposto(valorPago);
+                pJuridica.pagarImpostos(valorPago);
                 Console.WriteLine("-----Pessoa Jurídica-----");
                 Console.WriteLine("Nome....."+pJuridica.nome);
                 Console.WriteLine("Endereço....."+pJuridica.endereco);
@@ -70,7 +70,7 @@ namespace ClientLab
                 Console.WriteLine("Valor do imposto....."+pJuridica.valorImposto.ToString("C"));
                 Console.WriteLine("Total a pagar....."+pJuridica.total.ToString("C"));
             }
-            }
+            
 
         }
     }
