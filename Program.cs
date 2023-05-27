@@ -35,14 +35,13 @@ namespace ClientLab
                 pFisica.pagarImposto(valorPago);
                 Console.WriteLine("-----Pessoa Física-----");
                 Console.WriteLine("Nome....."+pFisica.nome);
-                 Console.WriteLine("Endereço....."+pFisica.endereco);
-                  Console.WriteLine("CPF....."+pFisica.cpf);
-                   Console.WriteLine("RG....."+pFisica.rg);
-                    Console.WriteLine("Valor da compra....."+pFisica.valor);
-                     Console.WriteLine("Valor do imposto....."+pFisica.valorImposto);
-                      Console.WriteLine("Total a pagar....."+pFisica.total);
-                       Console.WriteLine("....."+);
-                        Console.WriteLine("....."+);
+                Console.WriteLine("Endereço....."+pFisica.endereco);
+                Console.WriteLine("CPF....."+pFisica.cpf);
+                Console.WriteLine("RG....."+pFisica.rg);
+                Console.WriteLine("Valor da compra....."+pFisica.valor.ToString("C"));
+                Console.WriteLine("Valor do imposto....."+pFisica.valorImposto.ToString("C"));
+                Console.WriteLine("Total a pagar....."+pFisica.total.ToString("C"));
+                      
 
 
             }
