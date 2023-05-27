@@ -41,10 +41,37 @@ namespace ClientLab
                 Console.WriteLine("Valor da compra....."+pFisica.valor.ToString("C"));
                 Console.WriteLine("Valor do imposto....."+pFisica.valorImposto.ToString("C"));
                 Console.WriteLine("Total a pagar....."+pFisica.total.ToString("C"));
-                      
-
-
             }
+
+            if(varTipo == "j")
+            {
+                
+                PessoaJuridica pJuridica = new PessoaJuridica();
+                pJuridica.nome = varNome;
+                pJuridica.endereco = varEndereco;
+
+               
+               Console.WriteLine("Informe o seu CNPJ:");
+                pJuridica.cnpj = Console.ReadLine();
+
+                Console.WriteLine("Informe a Inscrição Estadual:");
+                pJuridica.inscEstadual = Console.ReadLine();
+
+                Console.WriteLine("Informe o valor da compra:");
+                valorPago = float.Parse(Console.ReadLine());
+               
+                pJuridica.pagarImposto(valorPago);
+                Console.WriteLine("-----Pessoa Jurídica-----");
+                Console.WriteLine("Nome....."+pJuridica.nome);
+                Console.WriteLine("Endereço....."+pJuridica.endereco);
+                Console.WriteLine("CPF....."+pJuridica.cnpj);
+                Console.WriteLine("RG....."+pJuridica.inscEstadual);
+                Console.WriteLine("Valor da compra....."+pJuridica.valor.ToString("C"));
+                Console.WriteLine("Valor do imposto....."+pJuridica.valorImposto.ToString("C"));
+                Console.WriteLine("Total a pagar....."+pJuridica.total.ToString("C"));
+            }
+            }
+
         }
     }
 }
